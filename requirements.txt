@@ -1,0 +1,27 @@
+# XTTS v2 Fine-Tuning for Egyptian Arabic
+
+Fine-tuning script for XTTS v2 using the Egy-Speech-DeepClean dataset.
+
+## Setup
+
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+
+```bash
+python finetune_xtts.py
+```
+
+## Dependencies
+
+- torch
+- transformers
+- datasets
+- peft
+- bitsandbytes
+- accelerate
+- scikit-learn
+- tqdm
+- gradio (optional, for demo)
